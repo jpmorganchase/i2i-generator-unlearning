@@ -42,7 +42,7 @@ Run `mkdir ./dataset` to create a folder, and follow the steps below to prepare 
     - Please move `dataset/places365/train_256_places365standard/data_256` to `dataset/places365/train_256` and `dataset/places365/val_256/val_256` to `dataset/places365/val_256`.
     - Then, run `python ./i2i_Palette-Image-to-Image-Diffusion-Models/datasets/place365/process_data.py` to cluster the valiation images with labels.
 
-After downloading the three datasets, the folder `dataset` should be orginized as:
+After downloading the three datasets, the folder `dataset` should be organized as:
 ```shell
 i2i-generator-unlearning/
   i2i_mage/
